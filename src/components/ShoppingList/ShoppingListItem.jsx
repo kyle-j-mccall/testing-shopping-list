@@ -1,8 +1,20 @@
-// eslint-disable-next-line max-len
 export default function ShoppingListItem({
+  shoppingItem,
   onUpdateShoppingItem,
   onDeleteShoppingItem,
-  shoppingList,
 }) {
-  return <></>;
+  return (
+    <div>
+      <ul>
+        <li>
+          <p>{shoppingItem.item_name}</p>
+          <input
+            type="checkbox"
+            onChange={onUpdateShoppingItem}
+          ></input>
+          <button onClick={onDeleteShoppingItem}>Delete</button>
+        </li>
+      </ul>
+    </div>
+  );
 }
