@@ -15,7 +15,7 @@ form button {
   color: var(--white-color);
   padding: var(--padding-half);
   margin: var(--padding-half);
-  width: 100%;
+  width: 10vw;
   text: capitalize;
 }
 
