@@ -10,7 +10,6 @@ export default function ShoppingListItemForm({ onSubmit }) {
       <form
         onSubmit={(e) => {
           e.preventDefault();
-          console.log('submit');
           onSubmit({ item_name: itemName, quantity: itemQuantity });
         }}
       >

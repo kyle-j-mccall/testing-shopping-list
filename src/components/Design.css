@@ -19,7 +19,7 @@ form button {
   text: capitalize;
 }
 
-form .item-btn {
+.item-btn {
   height: 2vh;
   width: 5vw;
 }
