@@ -15,7 +15,7 @@ export default function ShoppingListItem({
     <div>
       <ul>
         <li>
-          <p>
+          <p data-testid={`shopping-list-item-${shoppingItem.id}`}>
             {shoppingItem.item_name}: {shoppingItem.quantity}
           </p>
 
